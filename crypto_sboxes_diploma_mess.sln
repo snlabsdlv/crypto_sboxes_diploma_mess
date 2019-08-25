@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crypto_sboxes_diploma_mess", "crypto_sboxes_diploma_mess\crypto_sboxes_diploma_mess.vcxproj", "{F557BE1A-01BE-4B5D-A323-133D22638016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Debug|x64.ActiveCfg = Debug|x64
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Debug|x64.Build.0 = Debug|x64
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Debug|x86.ActiveCfg = Debug|Win32
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Debug|x86.Build.0 = Debug|Win32
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Release|x64.ActiveCfg = Release|x64
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Release|x64.Build.0 = Release|x64
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Release|x86.ActiveCfg = Release|Win32
+		{F557BE1A-01BE-4B5D-A323-133D22638016}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32503F71-4740-4464-ACCC-12B3AFC0763A}
+	EndGlobalSection
+EndGlobal
