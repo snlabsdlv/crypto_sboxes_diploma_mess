@@ -84,7 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
@@ -159,7 +159,6 @@
     <ClInclude Include="Kuzn.h" />
     <ClInclude Include="Kuzn_tables.h" />
     <ClInclude Include="LINEAR_BY_ANDREY.h" />
-    <ClInclude Include="pch.h" />
     <ClInclude Include="Precomp_Pi16.h" />
     <ClInclude Include="Precomp_Pi256.h" />
     <ClInclude Include="StandartSboxes.h" />
@@ -168,7 +167,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="crypto_sboxes_diploma_mess.cpp" />
-    <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
