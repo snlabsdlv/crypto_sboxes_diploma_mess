@@ -151,16 +151,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AES.h" />
+    <ClInclude Include="AES16x16.h" />
+    <ClInclude Include="Butterfly.h" />
+    <ClInclude Include="Galois256_65536.h" />
+    <ClInclude Include="gSbox.h" />
+    <ClInclude Include="Kuzn.h" />
+    <ClInclude Include="Kuzn_tables.h" />
+    <ClInclude Include="LINEAR_BY_ANDREY.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Precomp_Pi16.h" />
+    <ClInclude Include="Precomp_Pi256.h" />
+    <ClInclude Include="StandartSboxes.h" />
+    <ClInclude Include="structures.h" />
+    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="crypto_sboxes_diploma_mess.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

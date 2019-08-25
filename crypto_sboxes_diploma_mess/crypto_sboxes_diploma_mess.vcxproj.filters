@@ -15,15 +15,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AES16x16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Butterfly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Galois256_65536.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gSbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kuzn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kuzn_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LINEAR_BY_ANDREY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp_Pi16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precomp_Pi256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StandartSboxes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="crypto_sboxes_diploma_mess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crypto_sboxes_diploma_mess.cpp">
+    <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
